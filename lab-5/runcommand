@@ -1,0 +1,10 @@
+server:
+gcc server.c -o server -lws2_32  
+
+client:
+gcc client.c -o client -lws2_32 
+
+final command:
+
+server
+client
